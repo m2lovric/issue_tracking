@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import db from './store/db.ts';
+import { useEffect } from 'react';
+import db from './firebase/db.ts';
 import { collection, onSnapshot } from 'firebase/firestore';
 
 const getData = () => {
